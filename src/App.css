@@ -1,0 +1,13 @@
+ul.menu-items li {
+  @apply font-[400] ml-[60px] md:ml-0 mt-[10px] md:mt-0;
+}
+
+.form input,
+.form textarea {
+  @apply outline-0 focus:border-2 focus:border-blue-500
+  bg-gray-700;
+}
+
+.social-media-icons:hover {
+  @apply text-blue-400;
+}
